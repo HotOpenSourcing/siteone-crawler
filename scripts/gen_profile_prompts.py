@@ -4,6 +4,11 @@
 Source: docs/superpowers/specs/2026-07-21-ai-profile-chapters-research.md
 Run from the repo root: python3 scripts/gen_profile_prompts.py
 """
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import os
 import re
 import sys

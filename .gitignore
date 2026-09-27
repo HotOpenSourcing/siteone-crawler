@@ -7,5 +7,6 @@
 *.swo
 *~
 .idea/
-.vscode/
 *.cache
+config.bat
+node_modules
